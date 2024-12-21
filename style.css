@@ -1,0 +1,178 @@
+/*body*/
+
+    body
+        {
+            overflow-x: hidden;
+            font-size: 1rem; /* Escalable en todos los dispositivos */
+            padding: 0%;     /* Márgenes relativos al ancho del contenedor */
+        }
+
+    body div p {
+        font-size: 0px;
+    }
+
+/*header*/
+
+    header
+        {
+        background-color: #27A9E1;
+        margin: 0px;
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-bottom: 1px;
+        }
+    
+    .headerprincipal
+        {
+        background-color: #27A9E1;
+        }
+    header img
+        {
+        display: block;
+        margin: 0 auto;
+        width: 150px;
+        }
+    
+    header nav
+        {
+        display: flex;
+        justify-content: center;
+        }
+    /*menu de navegación*/
+        header  nav  ul  li
+            {
+            display: inline;
+            text-align: center;
+            padding: 2vh;
+            text-decoration: none;
+            }
+
+        header  nav  ul  li a
+            {
+            text-decoration: none;
+            color: white;        
+            }
+
+        .register-button
+            {
+            background-color:aquamarine ; /* Verde */
+            color: black; /* Texto blanco */
+            border: none; /* Sin bordes */
+            padding: 10px 20px; /* Espaciado interno */
+            font-size: 16px; /* Tamaño de fuente */
+            border-radius: 5px; /* Bordes redondeados */
+            cursor: pointer; /* Cambia el cursor a "mano" */
+            transition: background-color 0.3s; /* Efecto suave al pasar el ratón */
+            }
+        .register-button:hover {
+                background-color: white;
+            }
+/*section*/
+    section 
+        {
+            display: flex;
+            width: 100%; /* Ocupa el ancho completo */
+            height: 100%; /* Altura personalizada */
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            height: 50vh;
+        }
+
+    .section-principal 
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            height: 50vh;
+        }
+
+    
+        section div li  /*iconos de carpetas*/
+            {
+            display: inline;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+            margin: 0 auto;
+            padding: 2%;
+            }
+    
+        h2 {
+            text-align: center;
+            color: #27A9E1;
+            font-size: 200%;
+            text-decoration: none;}
+        p {
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            color: black;}
+        .p-principal {
+            display: block;
+            text-align: center;
+            font-size: 180%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 20%;}
+        .urban {
+            size: 10%;}
+
+        /*footer*/
+        footer {
+            display: flex;
+            justify-content: center;
+            background-color: #27A9E1;
+            position: relative;}
+
+        /*bloques de footer*/        
+        footer div {       
+            display: inline-block;
+            font-family: 'Courier New', Courier, monospace;}
+
+        /*bloque iconos de redes*/
+        footer div nav ul li        
+            {
+            display: inline-block;
+            padding: .01%;
+            list-style: none;
+            filter: brightness(0) invert(1); /*cambiar imagenes a color blanco*/
+            }
+
+        /*efecto de iconos de redes*/
+        footer div nav ul li:hover      
+            {
+            filter: brightness(0.8) invert(1);
+            }
+
+        
+        
+        footer div ul li        /*bloque correo*/
+            {
+            list-style: none;
+            text-decoration: none;
+            }
+        .correo a       /*class de correo*/
+            {
+            color: white;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.5vh;
+            text-decoration: none;
+            margin-left: 5%;
+            }
+
+        .whatsapp       /*class de whatsapp*/
+            {
+            display: inline-block;
+            transition: transform 0.3s ease; /* Efecto al pasar el cursor */
+            margin-left: 50%;
+            }
+        .whatsapp:hover
+            {
+            filter: brightness(0) invert(1);
+            }
+        
+            /*pagina de registro*/
+        .boton-regreso {
+            color: white;
+            text-decoration: none;
+        }
